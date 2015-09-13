@@ -3,11 +3,11 @@ AssistantConditional: WOConditional {
 }
 
 DirectToWebPlaque: WOImage {
-	alt = "Direct to Web - WebObjects ${WebObjectsVersion}";
+	alt = "Direct to Web - WebObjects 5.4.3";
 	filename = "DTW.gif";
 	framework = "JavaDirectToWeb";
 	height = "49";
-	name = "Direct to Web - WebObjects ${WebObjectsVersion}";
+	name = "Direct to Web - WebObjects 5.4.3";
 	width = "196";
 }
 

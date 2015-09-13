@@ -47,7 +47,7 @@ Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
 	<context-param>
 		<param-name>WOApplicationClass</param-name>
 		<param-value>
-			${dollar}{mainclass}
+			${package}.app.Application
 		</param-value>
 	</context-param>
 

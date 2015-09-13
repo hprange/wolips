@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archetype-descriptor name="woapplication-archetype">
 	<requiredProperties>
-		<requiredProperty key="WebObjectsVersion">
-			<defaultValue>5.4.3</defaultValue>
+		<requiredProperty key="JavaVersion">
+			<defaultValue>1.6</defaultValue>
 		</requiredProperty>
 	</requiredProperties>
 	<fileSets>

@@ -14,8 +14,8 @@
 		<jvmtarget>1.5</jvmtarget>
 		<mainclass>${package}.app.Application</mainclass>
 		<webobjects.groupId>com.webobjects</webobjects.groupId>
-		<webobjects.version>${WebObjectsVersion}</webobjects.version>
-		
+		<webobjects.version>5.4.3</webobjects.version>
+
 		<!-- encoding properties -->
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -27,15 +27,15 @@
 			<plugin>
 				<groupId>org.objectstyle.woproject.maven2</groupId>
 				<artifactId>maven-wolifecycle-plugin</artifactId>
-				<version>2.0.17</version>
+				<version>2.3-SNAPSHOT</version>
 				<extensions>true</extensions>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>${dollar}{jvmtarget}</source>
-					<target>${dollar}{jvmtarget}</target>
+					<source>${JavaVersion}</source>
+					<target>${JavaVersion}</target>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -43,17 +43,17 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>${dollar}{webobjects.groupId}</groupId>
+			<groupId>com.webobjects</groupId>
 			<artifactId>JavaWebObjects</artifactId>
 			<version>${dollar}{webobjects.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>${dollar}{webobjects.groupId}</groupId>
+			<groupId>com.webobjects</groupId>
 			<artifactId>JavaEOAccess</artifactId>
 			<version>${dollar}{webobjects.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>${dollar}{webobjects.groupId}</groupId>
+			<groupId>com.webobjects</groupId>
 			<artifactId>JavaFoundation</artifactId>
 			<version>${dollar}{webobjects.version}</version>
 		</dependency>

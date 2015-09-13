@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archetype-descriptor name="erxapplication-d2w-archetype">
 	<requiredProperties>
-		<requiredProperty key="WebObjectsVersion">
-			<defaultValue>5.4.3</defaultValue>
-		</requiredProperty>
 		<requiredProperty key="WonderVersion">
-			<defaultValue>5.0.0-SNAPSHOT</defaultValue>
+			<defaultValue>6.1.3</defaultValue>
 		</requiredProperty>
 	</requiredProperties>
 	<fileSets>

@@ -30,7 +30,7 @@
 	<key>Java</key>
 	<dict>
 		<key>JVMVersion</key>
-		<string>${dollar}{jvmtarget}+</string>
+		<string>${JavaVersion}+</string>
 	</dict>
 	<key>NSExecutable</key>
 	<string>${dollar}{project.artifactId}</string>
@@ -47,6 +47,6 @@
 	<key>NSJavaRoot</key>
 	<string>Resources/Java</string>
 	<key>NSPrincipalClass</key>
-	<string>${dollar}{mainclass}</string>
+	<string>${package}.app.Application</string>
 </dict>
 </plist>

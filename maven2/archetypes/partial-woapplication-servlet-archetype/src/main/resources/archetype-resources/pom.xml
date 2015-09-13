@@ -41,7 +41,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>${dollar}{webobjects.groupId}</groupId>
+			<groupId>com.webobjects</groupId>
 			<artifactId>JavaWOJSPServlet</artifactId>
 			<version>${dollar}{webobjects.version}</version>
 		</dependency>

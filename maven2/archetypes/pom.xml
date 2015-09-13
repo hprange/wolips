@@ -80,7 +80,7 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-archetype-plugin</artifactId>
-				<version>2.0-alpha-4</version>
+				<version>2.4</version>
 				<extensions>true</extensions>
 			</plugin>
 		</plugins>
@@ -88,14 +88,8 @@
 			<extension>
 				<groupId>org.apache.maven.archetype</groupId>
 				<artifactId>archetype-packaging</artifactId>
-				<version>2.0-alpha-4</version>
+				<version>2.4</version>
 			</extension>
 		</extensions>
 	</build>
-	
-	<scm>
-		<connection>scm:svn:http://svn.objectstyle.org/repos/woproject/trunk/woproject/maven2/archetypes</connection>
-		<developerConnection>scm:svn:https://svn.objectstyle.org/repos/woproject/trunk/woproject/maven2/archetypes</developerConnection>
-		<url>http://svn.objectstyle.org/repos/woproject/trunk/woproject/maven2/archetypes</url>
-	</scm>
 </project>

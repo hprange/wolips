@@ -5,7 +5,6 @@ import ${package}.components.Main;
 
 import com.webobjects.appserver.WOActionResults;
 import com.webobjects.appserver.WORequest;
-import com.webobjects.appserver.WODirectAction;
 import er.extensions.appserver.ERXDirectAction;
 
 public class DirectAction extends ERXDirectAction {
